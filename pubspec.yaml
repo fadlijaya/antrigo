@@ -1,0 +1,78 @@
+name: antrigo
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  google_fonts: ^4.0.4
+  intl: ^0.18.1
+  datetime_picker_formfield_new: ^2.1.0
+  date_format: ^2.0.7
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.1
+  firebase_storage: ^11.2.1
+  cloud_firestore: ^4.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/image/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "path/to/image.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/clock.png
+    - assets/image/double_doctor.png
+    - assets/image/home_doctor.png
+    - assets/image/hospital.png
+    - assets/image/logo.png
+    - assets/image/profil.png
+    - assets/image/suster.png
+    - assets/image/suster2.png
+    - assets/image/suster3.png
+    - assets/image/line.png
+    - assets/image/vector.png
+    - assets/icon/icon_home.png
+    - assets/icon/icon_profile.png
+    - assets/icon/icon_jadwal_periksa.png
+    - assets/icon/icon_daftar_antrian.png
+    - assets/icon/icon_history.png
+    - assets/ellipse/ellipse1.png
+    - assets/ellipse/ellipse2.png
+    - assets/ellipse/ellipse3.png
+    - assets/ellipse/ellipse4.png
+    - assets/ellipse/ellipse5.png
+    - assets/ellipse/ellipse6.png
+    - assets/ellipse/ellipse7.png
+    - assets/ellipse/ellipse8.png
